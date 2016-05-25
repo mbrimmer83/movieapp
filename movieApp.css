@@ -1,0 +1,45 @@
+form{
+  font-size: 4em;
+  text-align: right;
+  margin-right: 8%;
+​
+}
+#search-page {
+  color: white;
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 25%;
+}
+#results {
+  color: white;
+  margin-top: 5%;
+  margin-right: 12%;
+  width: 1000px;
+}
+
+body {
+  background: url("film.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: white;
+}
+
+#backResults {
+  font-size: 20px;
+}
+
+#details {
+  color: white;
+  float: right;
+  margin-top: 3%;
+  margin-right: 12%;
+  margin-left: 55%;
+}
+img {
+  width: 300px;
+  height: 450px;
+  padding: 4px;
+}

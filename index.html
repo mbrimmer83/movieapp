@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie App.</title>
+​
+    <link href="movieApp.css" rel="stylesheet" type="text/css">
+    <script src='jquery.js'></script>
+    <script src='movieApp.js'></script>
+  </head>
+  <body>
+​
+    <div id="search-page">
+      <form>
+        Movie Search <br>
+        <input type="text" name="search">
+        <input type="submit" value="Search">
+      </form>
+      <div id="results">
+      </div>
+      <button id="moreResults">Next Page
+      </button>
+    </div>
+    <div id="details-page">
+      <!-- "This is the details page" -->
+      <div id="details">
+        <p><label>Title: </label><span class="title"></span></p>
+        <p><label>Actors: </label><span class="actors"></span></p>
+        <p><label>Director: </label><span class="director"></span></p>
+        <p><label>Country: </label><span class="country"></span></p>
+        <p><label>Genre: </label><span class="genre"></span></p>
+        <p><label>Plot: </label><span class="plot"></span></p>
+        <p><label>Rated: </label><span class="rated"></span></p>
+        <p><label>Runtime: </label><span class="runtime"></span></p>
+        <p><label>Year: </label><span class="year"></span></p>
+        <p><label>Rating: </label><span class="rating"></span></p>
+        <p><label>Votes: </label><span class="votes"></span></p>
+        <button id="backResults">Back to results</button>
+      </div>
+    </div>
+  </body>
+</html>
